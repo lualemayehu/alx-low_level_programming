@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* this program prints a line using puts */
+/** 
+ * main - Entry point
+
+ * this program prints a line using puts
+ */
 
 int main(void)
 {
