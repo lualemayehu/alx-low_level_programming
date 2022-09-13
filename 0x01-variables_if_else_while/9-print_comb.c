@@ -10,17 +10,12 @@
 int main(void)
 {
 	int n = 48;
-
+	char c =',';
 	while (n < 58)
 	{
-		int c = n;
-		while (c < 58)
-		{
-			putchar(c);
-			putchar(n);
-			n++;
-			c++;
-		}
+		putchar(n);
+		putchar(c);
+		n++;	
 	}
 	putchar('\n');
 	return (0);
