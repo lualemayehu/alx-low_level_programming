@@ -19,11 +19,10 @@ int main(void)
 		n++;
 	}
 	while (c < '[')
-        {
-                putchar(c);
-                c++;
-        }
-
-	putchar('\n');
+	{
+		putchar(c);
+		c++;
+	}
+		putchar('\n');
 	return (0);
 }
