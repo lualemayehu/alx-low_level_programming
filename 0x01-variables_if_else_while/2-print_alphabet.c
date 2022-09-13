@@ -12,6 +12,7 @@ int main(void)
 	while (n < '{')
 	{
 		putchar(n);
+		putchar('\n');
                 n++;
 	}
 	return (0);
