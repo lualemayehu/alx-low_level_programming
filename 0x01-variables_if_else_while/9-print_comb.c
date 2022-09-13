@@ -14,15 +14,18 @@ int main(void)
 
 	for (n = 48; n < 58 ; n++)
 	{
-		if (n == 48)
-		{
-			putchar(n);
-		}
-		else
-		{
-			putchar(c);
-			putchar(n);
-		}
+		for (n = 48; n < 58 ; n++)
+			{
+				if ( n == 48)
+				{
+					putchar(n);
+				}
+				else
+				{
+					putchar(c);
+					putchar(n);
+				}
+			}
 	}
 	putchar('\n');
 	return (0);
