@@ -9,11 +9,12 @@
 int main(void)
 {
 	char n = 'a';
+
 	while (n < '{')
 	{
 		putchar(n);
-		putchar('\n');
-                n++;
+		n++;
 	}
+	putchar('\n');
 	return (0);
 }
