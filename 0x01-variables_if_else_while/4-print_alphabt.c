@@ -12,10 +12,21 @@ int main(void)
 {
 	char n = 'a';
 
-	while (n < '{' && (n != 'e' || n !='q'))
+	while (n < '{')
 	{
+		if (n == 'e')
+		{
+			n++;
+		}
+		else if (n == 'q')
+		{
+			n++;
+		}
+		else
+		{
 		putchar(n);
 		n++;
+		}
 	}
 	putchar('\n');
 	return (0);
