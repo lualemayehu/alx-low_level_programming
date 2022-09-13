@@ -5,28 +5,17 @@
  *
  * Return: Always 0 (Success)
  *
- * Program prints alpahabates in lower case
+ * Program prints numbers with a single degit starting from 0 
  */
 
 int main(void)
 {
-	char n = 'a';
+	char n = '0';
 
-	while (n < '{')
+	while (n < ':')
 	{
-		if (n == 'e')
-		{
-			n++;
-		}
-		else if (n == 'q')
-		{
-			n++;
-		}
-		else
-		{
 		putchar(n);
 		n++;
-		}
 	}
 	putchar('\n');
 	return (0);
