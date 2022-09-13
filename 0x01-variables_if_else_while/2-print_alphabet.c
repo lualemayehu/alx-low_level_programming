@@ -9,7 +9,7 @@
 int main(void)
 {
 	char n = 'a';
-	while (n < 'z')
+	while (n < '{')
 	{
 		putchar(n);
                 n++;
