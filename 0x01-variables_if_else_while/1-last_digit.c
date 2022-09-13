@@ -5,7 +5,9 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- * betty style doc for function main goes there */
+ *
+ * betty style doc for function main goes there
+ */
 int main(void)
 {
 	int n;
@@ -17,15 +19,15 @@ int main(void)
 
 	if (i > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5 \n", n,i);
+		printf("Last digit of %d is %d and is greater than 5 \n", n, i);
 	}
 	else if (i == 0)
 	{
-		printf("Last digit of %d is %d and is 0 \n", n,i);
+		printf("Last digit of %d is %d and is 0 \n", n, i);
 	}
 	else if (i < 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n,i);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, i);
 	}
 	return (0);
 }
