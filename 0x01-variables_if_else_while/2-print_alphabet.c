@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Return: Always 0 (Success)
+ *
  * Program prints alpahabates in lower case
  */
 
