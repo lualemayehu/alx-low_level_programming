@@ -12,7 +12,7 @@ int main(void)
 	int n;
 	int c = 44;
 
-	for (n = 48; n< 58 ; n++)
+	for ( n = 48; n< 58 ; n++)
 	{
 		if (n == 48)
 		{
@@ -25,5 +25,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }
