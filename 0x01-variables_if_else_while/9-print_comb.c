@@ -9,14 +9,21 @@
 
 int main(void)
 {
-	int n = 48;
-	
-	while (n < 58)
+	int n;
+	int c = 44;
+
+	for (n = 48; n< 58 ; n++)
 	{
-		putchar(n);
-		putchar(int 44);
-		n++;	
+		if (n == 48)
+		{
+			putchar(n);
+		}
+		else
+		{
+			putchar(c);
+			putchar(n);
+		}
 	}
 	putchar('\n');
-	return (0);
+	return (0);	
 }
