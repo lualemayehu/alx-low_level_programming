@@ -4,8 +4,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- *
- * Program prints numbers with a single degit starting from 0 
+ * Program prints numbers with a single degit starting from 0
  */
 
 int main(void)
