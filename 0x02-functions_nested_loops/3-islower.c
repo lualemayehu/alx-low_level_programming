@@ -2,6 +2,8 @@
 /**
  * _islower - Entry point
  *
+ * it takes integer parameter c as an input
+ *
  * Return: 1 if true and 0 if false
  */
 
@@ -12,6 +14,5 @@ int _islower(int c)
 		return (1);
 	}
 	else
-		return(0);
-
+		return (0);
 }
