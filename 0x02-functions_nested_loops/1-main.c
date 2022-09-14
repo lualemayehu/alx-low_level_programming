@@ -11,7 +11,7 @@ void print_alphabet(void)
 {
 	char n = 'a';
 
-	while (n < '{')
+	while (n <= 'z')
 	{
 		_putchar(n);
 		n++;
