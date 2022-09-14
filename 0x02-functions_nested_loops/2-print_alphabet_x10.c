@@ -1,22 +1,23 @@
 #include "main.h"
 /**
- * print_alphabet 10X- Entry point
+ * print_alphabet - Entry point
  *
- * Program prints alpahabates in lower case 10X
+ * Return: Always 0 (Success)
+ *
+ * Program prints alpahabates in lower case
  */
 
 void print_alphabet_x10(void)
 {
-	char n = 'a';
 	int i;
+	int j;
 
-	for (i = 0; i <=10 ; i++)
+	for(i = 0; i <= 10; i++)
 	{
-		while (n < '{')
+		for(j = 'a'; j <= 'z'; j++)
 		{
-			_putchar(n);
-			_putchar("\n");
-			n++;
+			_putchar(j);
 		}
+		_putchar(10);	
 	}
 }
