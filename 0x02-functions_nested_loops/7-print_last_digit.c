@@ -1,19 +1,25 @@
-#include <stdlib.h>
-#include <time.h>
 #include "main.h"
 /**
  * print_last_digit - display last digit
  * 
- *@c: it takes integer parameter c as an input
+ *@n: it takes integer parameter n as an input
  *
  * Return: last digit
  */
 
 int print_last_digit(int n)
 {
-	int i;
-
-	i = n % 10;
-	_putchar(i);
-	return (i);
+	if (n < 0)
+	{
+		n = n * -1;
+		_putchar((n % 10) + '0');
+		return (n % 10);
+	}
+	else if (n > 0)
+	{
+		_putchar((n % 10) + '0');
+		return (n % 10);
+	}
+	_putchar('0');
+	return (0);
 }
