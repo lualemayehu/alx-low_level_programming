@@ -12,11 +12,11 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i <=10 ; i++)
 	{
-	while (n < '{')
-	{
-		_putchar(n);
-		n++;
-	}
-	_putchar('\n');
+		while (n < '{')
+		{
+			_putchar(n);
+			_putchar("\n");
+			n++;
+		}
 	}
 }
