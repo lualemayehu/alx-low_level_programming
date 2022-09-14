@@ -5,7 +5,7 @@
  * Returns - 0
  */
 
-int _putchar(void)
+int main(void)
 {
 	_putchar();
 	return (0);
