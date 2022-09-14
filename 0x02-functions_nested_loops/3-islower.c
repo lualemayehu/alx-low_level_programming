@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _islower - checks if the input is lower case
  *
- * it takes integer parameter c as an input
+ *@c: it takes integer parameter c as an input
  *
  * Return: 1 if true and 0 if false
  */
