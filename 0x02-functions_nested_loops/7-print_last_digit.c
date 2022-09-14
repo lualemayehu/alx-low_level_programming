@@ -18,8 +18,11 @@ int print_last_digit(int n)
 	else if (n > 0)
 	{
 		_putchar((n % 10) + '0');
-		return (n % 10);
+		return (n % 10);	
 	}
-	_putchar('0');
+	else if (n == 0)
+	{
+		_putchar('0');
+	}
 	return (0);
 }
