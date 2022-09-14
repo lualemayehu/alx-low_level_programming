@@ -1,4 +1,5 @@
 int _putchar(void)
 {
-	return("_putchar\n");
+	printf("_putchar\n");
+	return(0);
 }
