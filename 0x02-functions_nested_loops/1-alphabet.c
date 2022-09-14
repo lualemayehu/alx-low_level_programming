@@ -1,12 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
+ *
+ * Program prints alpahabates in lower case
  */
-int main(void)
+
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+	char n = 'a';
+
+	while (n < '{')
+	{
+		_putchar(n);
+		n++;
+	}
+	_putchar('\n');
 }
