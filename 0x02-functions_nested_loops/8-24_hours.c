@@ -15,6 +15,8 @@ void jack_bauer (void)
 
 	for (i = 0; i <= 2; i++)
 	{
+		if (i<2)
+		{
 		for (j = 0; j <= 3; j++)
 		{
 			for ( k = 0; k <=5 ; k++)
@@ -25,5 +27,20 @@ void jack_bauer (void)
 				}
 			}
 		}
+		}
+		else
+		{
+		 for (j = 0; j <= 3; j++)
+                {
+                        for ( k = 0; k <=5 ; k++)
+                        {
+			        for (l = 0; l <=9; l++)
+                                {
+                                        printf("%d%d : %d%d\n", i,j,k,l);
+                                }
+                        }
+                }
+		}
+
 	}
 }
