@@ -2,12 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * print_numbers - display numbers between 0 - 9
+ * print_numbers - Program prints numbers with a single degit starting from 0
  *
  * Return: has no return type
- * Program prints numbers with a single degit starting from 0
  */
-
 void print_numbers(void)
 {
 	char n = '0';
