@@ -1,7 +1,6 @@
 #include "main.h"
-#include <ctype.h>
 /**
- * _isupper - checks if the input is upper case
+ * mul - multiplies two ints
  *
  * @a: input 1
  * 
