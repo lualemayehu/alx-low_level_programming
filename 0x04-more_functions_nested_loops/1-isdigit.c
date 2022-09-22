@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _isdigit- checks if the input is a number betwin 0 -9 
+ * _isdigit - checks if the input is a number betwin 0 - 9
  *
  *@c: it takes integer parameter c as an input
  *
@@ -10,7 +10,6 @@
 
 int _isdigit(int c)
 {
-
 	if (isdigit(c))
 	{
 		return (1);
