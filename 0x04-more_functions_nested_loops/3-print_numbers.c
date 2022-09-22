@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
  * print_numbers - Program prints numbers with a single degit starting from 0
