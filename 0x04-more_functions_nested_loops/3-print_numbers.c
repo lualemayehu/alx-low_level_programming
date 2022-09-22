@@ -7,11 +7,11 @@
 void print_numbers(void)
 {
 	char n = '0';
-
+	
 	while (n < ':')
 	{
 		putchar(n);
 		n++;
 	}
-	putchar('\n');	
+	putchar('\n');
 }
