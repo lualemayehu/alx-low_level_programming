@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - checks if the input is lower case
+ * _isupper - checks if the input is upper case
  *
  *@c: it takes integer parameter c as an input
  *
@@ -11,7 +11,7 @@
 int _isupper(int c)
 {
 
-	if ( isupper(c) )
+	if (isupper(c))
 	{
 		return (1);
 	}
