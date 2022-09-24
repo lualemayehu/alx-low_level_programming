@@ -10,9 +10,9 @@ void print_rev(char *s)
 {
 	int i;
 	int len;
-	
+
 	len = strlen(s);
-	for(i = len; i >= 0; --i)
+	for (i = len; i >= 0; --i)
 	{
 		if (s[i] == '\0')
 		{
